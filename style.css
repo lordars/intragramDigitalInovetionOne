@@ -1,0 +1,155 @@
+.instagram{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    
+}
+
+.entrar{
+    border: #dbdbdb 1px solid;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding:10px;
+    display: inline-block;
+    box-shadow: 7px 5px 5px black;
+   
+}
+
+.inicio{
+display: flex;
+flex-direction: column;
+text-align: center;
+font-family: fantasy serif;
+
+}
+
+.inicio form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.inicio form img{
+width:175px ;
+height: 100px;
+margin: auto;
+}
+
+
+.inicio form input{
+    width:  250px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+.inicio form button{
+    font-size: 15px;
+    font-weight: bold;
+    align-content: stretch;
+    font-family:  inherit;
+    width: 268px;
+    height: 30px;
+    opacity: 1;
+    border-radius: 4px;
+    margin: 10 40;
+    color: white;
+    background-color: rgba(var(--d69,0,149,246),.3);
+}
+
+.inicio form button:hover{
+    box-shadow: -3px -1px 2px #ddd, 3px 2px 5px #ccc;
+}
+
+.faceOuSenha{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.faceOuSenha h4{
+text-decoration: underline;
+font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.facebook {
+margin-bottom: 10px;
+padding: 10px;
+
+}
+.facebook button{
+outline: none;
+border: none;
+background-color: white ;
+box-shadow: 6px 2px 2px #ddd;
+   
+}
+
+.facebook button a{
+font-style: italic;
+color: #385185;
+text-decoration: none;
+
+
+
+}
+
+.facebook button  img{
+    width: 30px;
+    height: 20px;    
+   border-radius: 50%;
+   
+}
+.aplicativos{
+    margin-top: 30px;
+    border: #dbdbdb 1px solid;
+    margin-left: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    box-shadow: 6px 2px 2px black;
+}
+
+
+
+.aplicativos{
+    text-align: center;
+}
+.aplicativos img {
+width: 136px;
+height: 40px;
+display: inline;
+
+justify-content: space-between;
+
+
+
+}
+
+
+.footer{
+    text-align: center;
+   display: flex;   
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+align-items:  center;
+}
+
+.footer a{
+
+    margin-left: 20px;
+font-size: 12px;
+
+}
+
+
